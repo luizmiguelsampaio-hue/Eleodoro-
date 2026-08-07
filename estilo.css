@@ -8,6 +8,7 @@
     display: flex;
     justify-content:space-between ;
     align-items: center;
+    background-color: #2987a3;
 }
 
 .cartao {
@@ -23,8 +24,32 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #dfcfcf ;
 }
 
 main{
     flex: 1;
 }
+
+.cabecalho-link{
+    color: #1a1377;
+    text-decoration: none;
+}
+
+h1 {
+     color: #fff;
+     font-size: 24px;
+}
+
+footer{
+    background-color: #1a1377;
+    padding: 15px 25px;
+    color: #fff;
+}
+
+.cartao-interno{
+    position: relative;
+}
+
+.cartao-frente 
+
